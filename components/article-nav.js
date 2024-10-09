@@ -11,10 +11,10 @@ class ArticleNav extends HTMLElement {
         var tags = this.attributes.tags ? JSON.parse(this.attributes.tags.value) : [];
 
         this.innerHTML = `
-            <div class="d-none d-flex flex-wrap my-3 pb-5 tag-elements">
+            <div class="d-none d-flex flex-wrap my-3 tag-elements section-text-end">
             </div>
 
-            <nav class="post-nav d-flex justify-content-between">
+            <nav class="post-nav d-flex justify-content-between section-text-end">
                 <div class="nav-previous">
                     <a href="${prevHref}" rel="prev">
                         <i class="bi bi-arrow-left me-2"></i>

@@ -37,16 +37,16 @@
 
 
     "hobbies-page-title": "Activités Personnelles",
-    "work-page-title": "Projets Professionnels",
-    "education-page-title": "Formations et Diplômes",
+    "work-page-title": "Expériences Professionnelles",
+    "education-page-title": "Formations Académiques",
     
 
-    "hobbies-intro": "Dans cette section, je partage mes passions et mes activités, qui vont de la la photographie à la fabrication de vélo, en passant par la réparation de matériel électronique et la mécanique générale. Chaque domaine est une source d'inspiration et de découverte, où je m'efforce d'appliquer mes compétences pour explorer de nouvelles possibilités.",
+    "hobbies-intro": "Explorez mes activités, allant de ma passion pour la photographie à la fabrication artisanale de vélo, en passant par l'électronique, la micro-mécanique, et la mécanique générale. Ces domaines sont sources d'inspiration et de découverte, où je m'efforce d'y appliquer mes compétences pour explorer de nouvelles possibilités.",
     "work-intro": "Dans cette section, je présente une variété de projets d'ingénierie mécanique, allant de l'optimisation de processus industriels au développement d'une machine de tri, en passant par l'innovation d'un produit aéronautique . Vous trouverez aussi mon projet entrepreneurial centré sur la création d'une solution SaaS pour la distribution de films, ainsi que d'autres projets en développement informatique.",
     "education-intro": "Dans cette section, vous trouverez un aperçu des formations pluridisciplinaires qui ont façonné le socle de mes compétences techniques. Outre le développement de ma passion pour l'ingénierie, ces formations m'ont permis de m'adapter aisément à divers environnements professionnels.",
 
 
-    "home-intro-t1": "J’ai réalisé ce site pour vous faire découvrir mon parcours qui combine l’ingénierie mécanique et le développement informatique. Je présente ici l'approche méthodologique rigoureuse que je mets en œuvre pour concevoir des solutions innovantes face à une variété de problèmes techniques. Par ma capacité à collaborer efficacement et ma maîtrise billingue de l'anglais, je m'intégre facilement au sein d'équipes internationales. De plus, mon expérience d'entrepreneuriat m'a permis de développer des compétences complémentaires à mon expertise technique.",
+    "home-intro-t1": "J’ai réalisé ce site pour vous faire découvrir mon profil combinant l’ingénierie mécanique et le développement informatique. Je vous présente ici l'approche créative, méthodique et rigoureuse que je mets en œuvre afin de concevoir des solutions innovantes face à une grande variété de problèmes techniques. Profitez-en également pour explorer les autres activités qui enrichissent mon profil au délà de la technique. Je me distingue notamment par ma capacité à collaborer efficacement et ma maîtrise bilingue d'anglais, ce qui facilite mon intégration au sein des équipes internationales. Enfin, j'achève un projet d'entrepreneuriat au sein duquel j'ai développé des compétences de gestion et d'organisation complémentaires à mon expertise technique.",
     "home-intro-t2": "Je souhaite rejoindre une équipe où ma polyvalence sera un atout pour relever ensemble de nouveaux défis.",
     "home-skill-title": "Mes Atouts Clés",
     "home-a1-summary": "Améliorer un processus en alliant simulations et essais afin de garantir une qualité optimale des produits.",
@@ -76,7 +76,7 @@
 
 
     "resume-about-me-text": "À propos",
-    "resume-summary-text": "J'approche les problèmes techniques avec une méthodologie rigoureuse pour concevoir des solutions innovantes. Collaborateur à double compétence et bilingue en anglais, je m'intègre facilement au sein de toutes les équipes. Mon expérience entrepreneuriale m'a aidé à développer des compétences complémentaires à mon expertise technique, renforçant ainsi mon adaptabilité. Je recherche de nouveaux défis où je pourrai valoriser pleinement ma polyvalence.",
+    "resume-summary-text": "J'approche les problèmes techniques avec une méthodologie rigoureuse pour concevoir des solutions innovantes. Collaborateur à double compétence et bilingue en anglais, ce qui me permet de m'intégrer facilement au sein de toutes les équipes. Mon expérience entrepreneuriale m'a aidé à développer des compétences complémentaires à mon expertise technique, renforçant ainsi mon adaptabilité. Je recherche de nouveaux défis où je pourrai valoriser pleinement ma polyvalence.",
     "resume-education-title": "Formations",
     "resume-hobbies-title": "Activités",
     "resume-skills-title": "Compétences",
@@ -88,8 +88,9 @@
     "resume-hobbies-t6": "Ski et randonnée",
     "resume-hobbies-t7": "Sciences sociales",
 
+    "a1": "------------------------------------------------------------------------------------------------------------------------------------",
 
-    "a1-title": "Fabrication artisanale de vélo sur mesure",
+    "a1-title": "Fabrication de Vélo sur Mesure : L'Artisanat en Action",
     "a1-tile-intro": "Explorez ce projet où j'ai conçu et fabriqué un cadre de vélo sur mesure alliant performance et polyvalence. De la conception à l'assemblage final par soudo-brasure, chaque étape a été orchestrée avec des décisions techniques précises, démontrant ainsi mes compétences en ingénierie mécanique.",
     "a1-intro": "Pendant ce projet, l'objectif était de créer un cadre de vélo sur mesure mettant l'accent sur la polyvalence. J'ai cherché à concevoir un vélo capable de combiner agilité et vitesse pour les saisons estivales, tout en restant stable et adapté aux conditions hivernales. De la conception et la modélisation de la géométrie jusqu’à la fabrication du cadre, j'ai pris en charge l'intégralité du processus. Les décisions techniques, telles que le choix des matériaux, des tubes, et des standards pour les interfaces, la transmission, le freinage, ont été prises avec rigueur. Les étapes pratiques de la fabrication, allant du grugeage des tubes aux derniers ajustements, au pointage, et enfin, à l'assemblage par brasage au bronze et à l'argent, ont été exécutées avec précision.",
     "a1-h1": "Conception",
@@ -111,7 +112,9 @@
     "a1-h3-t3": "Fort de ces acquis, je m'apprête à aborder la prochaine phase passionnante de ce projet : la mise en peinture du cadre. Cette étape ajoutera une touche esthétique finale et scellera le caractère unique de ce vélo sur mesure.",
     "a1-h3-t4": " En envisageant l'avenir, je prévois de m'équiper davantage pour me lancer dans la réalisation d'un vélo cargo. Ce projet futur sera l'occasion de mettre en pratique mes compétences, tout en explorant de nouvelles possibilités dans le monde de l'ingénierie mécanique appliquée au cyclisme.",
 
-    "a2-title": "Collection de vélos: technologie, art, histoire",
+    "a2": "------------------------------------------------------------------------------------------------------------------------------------",
+
+    "a2-title": "Cyclisme : une Collection Entre Technologie, Art et Histoire",
     "a2-tile-intro": "Plongez dans une collection de vélos qui conjugue ingénierie, art et histoire, révélant l'évolution technologique de l'ingénierie mécanique dans le domaine du cyclisme. Chaque pièce reflète un artisanat méticuleux, une expression artistique et des exploits sportifs, offrant une immersion captivante dans l'univers du cyclisme.",
     "a2-intro": "Bien plus qu'un simple assemblage de pièces mécaniques, ma collection de vélos incarne un témoignage vivant des avancées technologiques, d'un artisanat élevé au rang de l'art, et des exploits sportifs historiques. Chaque vélo, méticuleusement sélectionné, devient une pièce unique racontant une histoire singulière dans le monde du cyclisme. Découvrez au travers de cette exploration une métamorphose où un cadre de vélo devient une toile pour l'innovation, les maîtres cadreurs des artistes, et chaque vélo un témoin privilégié de l'histoire du cyclisme.",
     "a2-h1": "Une collection comme vitrine technologique",
@@ -127,8 +130,10 @@
     "a2-h3-t2": "Elle comprend plusieurs vélos ayant pris part au Tour de France, chacun porteur de l'histoire d'une époque. Parmi eux, le vélo sur lequel Marc Sergeant a triomphé lors de la 5ème étape du Tour de France 1987 au sein de l'équipe Lotto-Eddy Merckx, celui sur lequel Alain Bondue a remporté la médaille d'argent aux J.O. de Moscou en 1980, ou bien même une réplique exacte du contre-la-montre que Laurent Fignon roulait lorsqu'il a manqué de peu sa troisième victoire au Tour de France 1989, concédant la première place à Greg Lemond par un écart de seulement 8 secondes.",
     "a2-h4": "Conclusion",
     "a2-h4-t1": "En rassemblant ces différentes dimensions, ma passion pour la collection de vélos se dessine comme une exploration technique et historique. Chaque élément qui la constitue est une pièce d'ingénierie témoignant des avancées techniques, des compétences artisanales et des faits marquants de l'histoire du cyclisme. Au-delà de l'assemblage de composants, chaque vélo représente une étape dans l'évolution du design et une réflexion sur l'ingénierie mécanique appliquée à ce domaine. Ainsi, cette collection devient une documentation vivante de l'évolution de cette discipline, allant des matériaux au design, en passant par les innovations techniques, tout en préservant l'héritage sportif qui lui est associé.",
+
+    "a3": "------------------------------------------------------------------------------------------------------------------------------------",
     
-    "a3-title": "Photographie",
+    "a3-title": "Photographie : une Passion pour l'Art et la Conservation",
     "a3-tile-intro": "Explorez ma passion pour la photographie en tant que forme d'expression artistique subtile et technique, découvrant son évolution à travers la rétro-ingénierie des dispositifs argentiques et la collection d'appareils emblématiques.",
     "a3-intro": "La photographie, bien plus qu'une simple capture d'images, est pour moi une démarche artistique subtile où l'on compose avec le réel comme moyen d'expression dans sa forme la plus pure. J'ai exploré cette passion à travers différentes techniques, de la photographie numérique à l'argentique, tout en étudiant l'histoire et l'évolution des dispositifs photographiques.",
     "a3-h1": "Mon expérience de photographie",
@@ -138,7 +143,9 @@
     "a3-h3": "Conclusion",
     "a3-h3-t1": "Fort de ma tradition familiale dans la photographie, j'ai développé une profonde appréciation pour cet art, le considérant comme bien plus qu'une simple capture d'images, mais comme une forme d'expression subtile et pertinente. Mon parcours m'a conduit à explorer à travers la rétro-ingénierie ces dispositifs photographiques argentiques, une démarche enrichissante qui m'a permis de comprendre leur fonctionnement et leur évolution au fil du temps. En collectionnant des modèles emblématiques, j'ai pleinement pris conscience de leur importance dans la documentation d'événements historiques, tout en acquérant une meilleure compréhension technique des mécanismes qui les composent. Animé par cette passion, je souhaite désormais approfondir ma pratique en me tournant vers le tirage argentique et partager mes découvertes à travers l'organisation d'une exposition, offrant ainsi un regard unique sur mon interprétation de cet art.",
 
-    "a4-title": "Culture Maker: l'ingéniosité au quotidien",
+    "a4": "------------------------------------------------------------------------------------------------------------------------------------",
+
+    "a4-title": "Culture Maker : Ingéniosité et Créativité au Quotidien",
     "a4-tile-intro": "Adapte de la fabrication additive et des réparations électroniques, je maîtrise une variété de domaines allant du logiciel à la mécanique générale. Mon engagement dans le DIY et la culture Maker reflète une philosophie de vie où la compréhension des systèmes est primordiale.",
     "a4-intro": "La culture Maker et DIY fait partie intégrante de mon profil, héritée d'une lignée familiale où l'ingéniosité et la curiosité intellectuelle sont des valeurs primordiales. Cette tradition d'innovation remonte à plusieurs générations, avec mon arrière-grand-père qui dessinait déjà des plans d'éoliennes à la main, tandis que mon grand-père était entrepreneur dans l'aéronautique et mon père travaillait pour le programme spatial Arianne. Ce contexte m'a inculqué une volonté de comprendre les mécanismes qui m'entourent à travers une approche systématique, fondamentale dans ma quête d'exploration et d'innovation.",
     "a4-h1": "Culture Maker et DIY",
@@ -149,22 +156,24 @@
     "a4-h2": "Conclusion",
     "a4-h2-t1": "Enracinée dans une tradition familiale d'ingéniosité et de curiosité, ma passion pour le DIY est le fruit d'une lignée où la volonté de comprendre les mécanismes du monde est une valeur primordiale. De l'amélioration de mes imprimantes 3D à la réparation d'appareils électroniques en passant par la fabrication de claviers ergonomiques et la mécanique générale, chaque projet représente une exploration minutieuse des systèmes qui nous entourent. Cette approche ne se limite pas à un simple loisir, mais incarne une philosophie de vie où la connaissance et la maîtrise des technologies façonnent mon quotidien.",
 
-    "a5-title": "Entre sport et sciences sociales",
-    "a5-tile-intro": "",
-    "a5-intro": "Dans cette exploration de ma vie et de mes passions, je navigue entre les sentiers escarpés des montagnes alpines et les dédales intellectuels des sciences sociales. Je m'appuie sur une diversité d'activités, allant du cyclisme à la réflexion philosophique, pour nourrir mon esprit et mon corps, cherchant constamment l'harmonie entre les différents aspects de mon existence.",
-    "a5-h1": "Pratiques Sportives : Un Souffle d'Air Frais",
-    "a5-h1-t1": "Cyclisme Multifacette : Le cyclisme est au cœur de ma vie active, m'offrant des défis et des expériences variées. Des routes sinueuses du cyclisme sur route aux chemins gravel, en passant par les sentiers plus sauvages du VTT cross-country, chaque sortie représente une aventure unique où je me confronte à mes limites et je me connecte avec la nature.",
-    "a5-h1-t2": "Passion pour le Ski : Né dans la région d'Annecy, j'ai développé une affection particulière pour le ski dès mon plus jeune âge. Des descentes effrénées sur les pistes enneigées aux montagnes majestueuses des Alpes, le ski est une passion qui transcende le simple plaisir de glisser sur la neige. En plus de ma pratique, je maîtrise les subtilités de l'entretien des skis, assurant ainsi des performances optimales sur les pentes enneigées.",
-    "a5-h1-t3": "Randonnées Envoûtantes : Parcourir les sentiers de randonnée, surtout ceux qui s'étendent sur plusieurs jours et mènent à des refuges isolés, est une expérience envoûtante. Dans ces moments, je me laisse envelopper par la beauté brute de la nature, trouvant une sérénité profonde dans la simplicité de la vie en plein air.",
-    "a5-h2": "Sciences Sociales et Société : La Quête de Compréhension",
-    "a5-h2-t1": "Exploration Intellectuelle : En dehors de mes activités sportives, je consacre une part significative de mon temps à explorer divers sujets dans les domaines des sciences sociales. De l'anthropologie à la rhétorique, en passant par la psychologie sociale et la sociologie, chaque discipline me permet de décoder les mécanismes complexes qui sous-tendent notre société.",
-    "a5-h2-t2": "Réflexions Sociétales : Les enjeux de société m'intéressent particulièrement, notamment l'éthique de l'innovation, les dynamiques de pouvoir, ou encore l'évolution des médias. Je m'interroge sur les implications sociales et éthiques des avancées technologiques, telles que l'intelligence artificielle, les smartphones et les réseaux sociaux, sur nos vies et nos sociétés.",
-    "a5-h3": "Équilibre et Bien-Être : connexion entre Nature et Esprit",
-    "a5-h3-t1": "Passion pour la Nature : Fasciné par les équilibres naturels et la biodiversité, je cultive une passion profonde pour les plantes et les merveilles de la faune et de la flore. Chaque plante, chaque animal, représente un écosystème à part entière, témoignant de la complexité et de la beauté du monde naturel. Quête de Vérité et Philosophie de Vie : Enfin, ma quête de vérité s'étend au-delà des connaissances académiques, englobant également les réflexions philosophiques. Je cherche à établir des ponts entre les connaissances sociales, littéraires et scientifiques, explorant les liens entre la physique, la mécanique et les questionnements existentiels.",
-    "a5-h4": "Conclusion",
-    "a5-h4-t1": "Dans cette exploration de ma vie et de mes passions, je trouve un équilibre entre le mouvement et la contemplation, entre l'action physique et la réflexion intellectuelle. À travers le sport, les sciences sociales et la connexion avec la nature, je façonne une existence riche et épanouissante, cherchant toujours à élargir mes horizons et à approfondir ma compréhension du monde qui m’entoure.",
+    "a5": "------------------------------------------------------------------------------------------------------------------------------------",
 
-    "a6-title": "Optimisation du traitement thermique par induction",
+    "a5-title": "Sport, Curiosité, et Bien-Être",
+    "a5-tile-intro": "xxxxx",
+    "a5-intro": "Découvrez les autres pratiques sportives et intellectuelles qui nourrissent mon corps et mon esprit. Je navigue ainsi entre les sentiers escarpés des Alpes et les dédales intellectuels des sciences sociales, en passant par les étonnements philosophiques universels et d'autres activités sportives bien plus concrêtes, afin d'atteindre mon équilibre de vie.",    
+    "a5-h1": "Pratiques Sportives",
+    "a5-h1-t1": "Le cyclisme et la randonnée sont des activités qui m'offrent des défis stimulants pour explorer ma capacité physique. Chaque sortie vélo, qu'elle soit sur routes sinueuses bitumées, chemins de gravel exigeants ou sentiers sauvages de cross-country, est une aventure nouvelle dont je ne me lasse pas. De la même manière les sorties randonnées, qui s'étendent parfois sur plusieurs jours, en passant par des refuges isolés, m'apportent tout autant de sérénité. Je ne saurai trouver autre chose qui puisse m'apporter autant de satisfaction que la simplicité de la vie en plein air et la contemplation de la nature.",
+    "a5-h1-t2": "Étant natif et ayant grandi à Annecy (74), la pratique du ski alpin était une évidence. Les descentes effrénées et les panoramas grandioses des Alpes sont à mes yeux bien plus qu'une simple activité loisir, mais une vraie passion. C'est d'ailleurs pour cela que, bien qu'ayant récemment subi une blessure grave de rupture des ligaments croisés, je reste déterminé à remonter sur des skis dès que possible. Je poursuis donc mon chemin vers la guérison complète sans jamais perdre de vue cet objectif.",
+
+    "a5-h2": "Curiosité et Bien-Être",
+    "a5-h2-t1": "En dehors de mes activités sportives, j'explore divers domaines en sciences sociales, comme l'anthropologie, la psychologie et la sociologie, afin de mieux comprendre les mécanismes qui sous-tendent nos sociétés. Je m'intéresse particulièrement aux enjeux sociétaux tels que l'éthique de l'innovation, les dynamiques de pouvoir ainsi que l'impact sur nos vies de technologies comme l'intelligence artificielle. Mon engouement pour la nature et la biodiversité nourrit également mon besoin de compréhension, tout en cultivant une fascination pour la complexité des écosystèmes. Enfin, ma quête de vérité s'étend aux réflexions philosophiques, cherchant à relier les connaissances sociales, littéraires et scientifiques pour une compréhension plus profonde de notre monde.",
+    
+    "a5-h3": "Conclusion",
+    "a5-h3-t1": "Ces activités permettent de répondre à l'insatiable curiosité qui m'anime. Elles m'apportent l'équilibre dont j'ai besoin en alliant l'effort physique, la reflexion intellectuelle, et la contemplation au sens plus large du terme. C'est ainsi que j'œuvre sans relâche à élargir mes horizons en conjugant l'exploration de mes propres capacités et l'approfondissement de ma compréhension de ce monde, dans toute sa complexité.",
+
+    "a6": "------------------------------------------------------------------------------------------------------------------------------------",
+
+    "a6-title": "Optimisation de Procédé: Traitement Thermique Localisé par Chauffage à Induction",
     "a6-tile-intro": "Découvrez comment j'ai amélioré le processus de traitement thermique localisé par chauffage à induction afin de garantir une qualité optimale des produits, réduire les délais de développement et accélérer les cycles de fabrication par la concordance entre simulations avancées et résultats d'essais réels.",
     "a6-intro": "L'entreprise NTN-SNR Roulements fabrique quotidiennement plus de 500 000 roulements destinés à divers secteurs industriels. Pour cela, elle utilise le procédé de traitement thermique localisé par chauffage à induction (TTL-Induction) qui permet d’ajuster la microstructure des roulements en fixant la structure austénitique dans la matière. Ce traitement renforce la dureté des pistes sur lesquelles les corps roulants se déplacent, assurant ainsi une durée de vie accrue des roulements. Ma mission consistait à optimiser le processus de TTL-Induction afin de garantir une qualité optimale des produits, de réduire les temps de cycle de fabrication, et de rendre plus efficace le développement de ce procédé appliqué aux nouveaux produits.",
     "a6-h1": "Objectifs de la mission",
@@ -174,7 +183,9 @@
     "a6-h4": "Conclusion",
     "a6-h4-t1": "Cette mission a englobé plusieurs domaines scientifiques, notamment la mécanique, la thermique, l'électromagnétisme et la science des matériaux, par la gestion de simulations élaborées et la mise en place d’une stratégie de plans d’expérience pertinente. Elle a constitué une opportunité idéale pour appliquer mes compétences en sciences appliquées. L'analyse comparative entre les résultats des simulations et ceux des essais réels a souligné l'importance de relier théorie et pratique dans l'optimisation des processus industriels. De plus, le travail d’analyse de sensibilité du logiciel a souligné combien la rigueur méthodologique est cruciale pour résoudre des problèmes techniques complexes. En fournissant une assistance technique aux membres du département de TTL, et en collaborant avec l’éditeur du logiciel, j'ai réalisé l'importance de la communication pour une collaboration efficace. En conclusion, cette mission a enrichi mes connaissances dans divers domaines scientifiques et techniques, tout en renforçant mes compétences en gestion de projets de R&D industrielle.",
 
-    "a7-title": "Conception d'un module de transitique industrielle",
+    "a7": "------------------------------------------------------------------------------------------------------------------------------------",
+
+    "a7-title": "Conception de Processus: Module de Transitique Industrielle",
     "a7-tile-intro": "Découvrez comment j'ai élaboré un système novateur de transitique industrielle qui permet de réduire des arrêts coûteux sur les lignes de production. Cette expérience m'a permis d'aborder la gestion de projet d’innovation de manière globale, tout en mettant en pratique mes compétences en conception mécanique, électro-pneumatique et en informatique embarquée.",
     "a7-intro": "L'entreprise NTN-SNR Roulements est un leader dans la fabrication de roulements grâce à son expertise séculaire dans ce domaine. Elle conçoit et produit tous les éléments essentiels à l'assemblage de roulements, incluant les bagues intérieures et extérieures, les corps roulants et les cages qui maintiennent ces derniers. Dans le cadre spécifique de la production de corps roulants en forme de rouleaux coniques, ma mission avait pour objectif le développement d'un système novateur de contrôle d'orientation de ces rouleaux afin de réduire les arrêts coûteux sur les lignes de production. Pour atteindre cet objectif, j'ai conçu un dispositif fiable et autonome en suivant un processus d'innovation méthodique. Mon travail a ainsi impliqué une analyse approfondie des solutions existantes, la sélection de technologies adaptées à la problématique, ainsi que la conception mécanique, électro-pneumatique et informatique des différents ensembles de la nouvelle solution.",
     "a7-h1": "Objectifs de la mission",
@@ -184,7 +195,9 @@
     "a7-h3": "Conclusion",
     "a7-h3-t1": "La mission de développement du module de transitique industrielle visait à résoudre un problème critique de contrôle d'orientation des rouleaux coniques entre les machines de finition et de superfinition. La nécessité de détecter et d'éjecter efficacement les rouleaux mal orientés visait à réduire les arrêts de production coûteux causés par les casses de meules et à minimiser l'intervention humaine fastidieuse lors des déblocages, tout en améliorant la qualité de production et en réduisant la quantité de rebuts associés aux redémarrages de lignes. La solution proposée, basée sur un capteur laser de haute précision, s'est avérée efficace pour contrôler les rouleaux à haute cadence, tout en garantissant une faible usure et un impact minimal sur les rouleaux. Les différentes étapes de conception, de fabrication et d'optimisation du système ont permis de répondre pleinement aux besoins de l'entreprise, comme en témoignent les essais réussis en conditions réelles. Cette mission a été particulièrement enrichissante car elle m'a offert l'opportunité d'approfondir mes compétences en conception de systèmes industriels, en analyse des besoins et en résolution de problèmes techniques. De plus, elle a été l'occasion idéale pour renforcer mes compétences en gestion de projets d'innovation, en me permettant de superviser un projet concret de bout en bout, depuis sa conception initiale jusqu'à sa mise en œuvre opérationnelle. Enfin, j'ai pu observer directement l'impact positif de mon travail sur les opérations et la rentabilité de l'entreprise, ce qui a renforcé ma motivation et mon engagement pour de futurs projets.",
 
-    "a8-title": "Amélioration d'une bague de roulement aéronautique",
+    "a8": "------------------------------------------------------------------------------------------------------------------------------------",
+
+    "a8-title": "Innovation de Produit: Cage de Roulement Aéronautique",
     "a8-tile-intro": "Découvrez comment j'ai utilisé la fabrication additive métallique pour améliorer les performances des roulements aéronautiques, repoussant ainsi les limites de l'innovation.",
     "a8-intro": "Bien que NTN-SNR Roulements soit reconnue depuis plus de cent ans comme un leader dans la fabrication de roulements, l'entreprise ne cesse de chercher de nouvelles voies d'innovation. En explorant les possibilités offertes par la fabrication additive métallique, elle s'efforce de repousser les limites de l'innovation dans le domaine des roulements. Ma mission consistait à re-concevoir une cage aéronautique afin d’en améliorer les fonctionnalités grâce aux possibilités inédites offertes par ce nouveau procédé de fabrication. En revisitant un produit existant, j'ai également cherché à susciter l'intérêt d’un groupe d’acteurs industriels pour encourager des investissements dans la recherche et le développement de cette approche novatrice.",
     "a8-h1": "Objectifs de la mission",
@@ -194,17 +207,42 @@
     "a8-h3": "Conclusion",
     "a8-h3-t1": "Les efforts déployés tout au long de cette démarche d'exploration ont abouti à une réponse efficace au besoin initial de re-concevoir une cage de roulement aéronautique qui exploite les possibilités offertes par la fabrication additive métallique. Cette approche innovante de conception a permis une amélioration significative des fonctionnalités et une réduction de masse. Cela démontre que l’on peut encore ouvrir de nouvelles perspectives dans un domaine qui semble pourtant quasi immuable. Cette expérience s'est révélée particulièrement enrichissante en me permettant de développer mes compétences dans le domaine de l’optimisation topologique et de la conception assistée par ordinateur. Le succès rencontré témoigne de la pertinence de cette approche, suscitant ainsi l'intérêt et l'approbation du client. En résumé, cette mission m'a offert l'opportunité de m'engager dans une démarche d’innovation technologique de pointe où j’ai pu exercer mes compétences tout en exploitant les dernières avancées en matière de conception et de fabrication, ce qui représente un défi enrichissant et stimulant.",
 
-    "a9-title": "Projet de start-up Cineflows",
-    "a9-tile-intro": "Cineflows est une solution SaaS innovante qui simplifie et optimise la distribution de films pour les ayants droit et les exploitants de cinéma.",
-    "a9-intro": "",
-    "a9-h1": "",
-    "a9-h1-t1": "",
-    "a9-h2": "",
-    "a9-h2-t1": "",
-    "a9-h4": "",
-    "a9-h4-t1": "",
+    "a9": "------------------------------------------------------------------------------------------------------------------------------------",
 
-    "a10-title": "Projets en programmation et algorythmie",
+    "a9-title": "Entrepreunariat: Création de la Start-Up Cineflows",
+    "a9-tile-intro": "Cineflows est une solution SaaS innovante qui simplifie et optimise la distribution de films pour les ayants droit et les exploitants de cinéma.",
+    "a9-intro": "L'industrie de la distribution de films est un secteur complexe avec des défis importants, notamment la fragmentation des canaux de distribution et les difficultés à atteindre le public cible de manière efficace. Notre objectif était de créer une solution innovante pour améliorer la distribution de films, en répondant aux besoins spécifiques des distributeurs et en exploitant les nouvelles technologies collaboratives. Ce projet est né de l'identification des lacunes dans la distribution de films et de l'opportunité d'apporter une solution technologique innovante. J’ai réuni une équipe composée de professionnels de l’industrie et de développeurs expérimentés pour relever ce défi. Mon rôle était central dans l'orchestration et la réussite de ce projet, en prenant en charge l’aspect conception, le commercial, organisationnel, opérationnel.",
+   
+    "a9-h1": "Objectifs du projet",
+    "a9-h1-t1": "Comme tout projet entrepreunarial, je n’ai pas eu un rôle délimité au sein de ce projet. J’ai eu un rôle pivot qui recouvrait plusieurs domaines tels que:",
+    
+    "a9-h1-s1": "I. Concevoir la stratégie commerciale :",
+    "a9-h1-s1-t1": "→ Analyse de marché : Étudier les tendances du marché et identifier les besoins non satisfaits.",
+    "a9-h1-s1-t2": "→ Value Proposition Design : Évaluer la proposition de valeur pour assurer la viabilité du projet.",
+    "a9-h1-s1-t3": "→ Stratégie commerciale : Développer la stratégie commerciale, définir des marchés d'entrée et modéliser la rentabilité et les besoins financiers.",
+
+    "a9-h1-s2": "II. Organiser la collaboration :",
+    "a9-h1-s2-t1": "→ Utiliser des outils collaboratifs innovants pour faciliter la communication et le travail en équipe.",
+    "a9-h1-s2-t2": "→ Orchestrer la collaboration entre les différents membres de l'équipe.",
+
+    "a9-h1-s3": "III. Assurer l'interface métier-technique :",
+    "a9-h1-s3-t1": "→ Exigences métier : Comprendre les besoins du métier et en sortir des spécifications claires.",
+    "a9-h1-s3-t2": "→ Contraintes techniques : Analyser les contraintes techniques pour définir les spécifications de développement.",
+    "a9-h1-s3-t3": "→ Choix technologiques : Contribuer à la sélection des technologies pour la stack technique et les modèles de données.",
+
+    "a9-h1-s4": "IV. Réaliser le prototypage de la solution :",
+    "a9-h1-s4-t1": "→ UX/UI design : Formation en design d'expérience utilisateur et d'interface utilisateur.",
+    "a9-h1-s4-t2": "→ Maquetage : Concevoir des maquettes et des wireframes pour l'application web.",
+
+    "a9-h1-t2": "Nous avons ainsi entrepris le développement d’une application web innovante de type SaaS pour le marché de la distribution de films B2B. Après avoir étudié en profondeur le marché, ses acteurs, leurs besoins et le workflow des distributeurs, nous avons conçu le produit en définissant clairement son fonctionnement (UX design, parcours utilisateurs, persona etc) puis son wire framing. Il y a aussi eu la caractérisation technique du produit, le choix des technologies ou stack techniques, le déploiement d’un environnement de développement. Enfin l’aspect administratif et managerial de type horizontal. Cependant, le projet a dû s'arrêter en raison de l’épuisement des fonds aloués à ce projet, couplée à l’identification de verrous technologiques nécessitant des partenariats externes difficiles à mettre en place. Enfin, bien que notre projet se soit arrêté, la récente mise en vente d’un produit similaire par un acteur majeur de ce marché nous a permis de confirmer que l’idée initiale correspondait bien aux besoins de ce marché.",
+
+    "a9-h3": "Conclusion",
+    "a9-h3-t1": "Bien que le projet n'ait pas atteint son objectif final, il a été une source d'apprentissage immense. J'ai pu tester et renforcer ma polyvalence, ainsi que comprendre l'importance de la communication, du management et de la stratégie. Terminer ce projet sans succès n'est pas un échec, mais une étape enrichissante de mon parcours professionnel. Savoir arrêter un projet quand les circonstances l'exigent est essentiel, et cette expérience m'a préparé à relever de nouveaux défis avec une vision plus claire et des compétences accrues.",
+
+    "a10": "------------------------------------------------------------------------------------------------------------------------------------",
+
+
+    "a10-title": "Développement: Programmation C et Projet Web",
     "a10-tile-intro": "",
     "a10-intro": "",
     "a10-h1": "",
@@ -213,6 +251,8 @@
     "a10-h2-t1": "",
     "a10-h4": "",
     "a10-h4-t1": "",
+
+    "a11": "------------------------------------------------------------------------------------------------------------------------------------",
 
     "a11-title": "",
     "a11-tile-intro": "",
