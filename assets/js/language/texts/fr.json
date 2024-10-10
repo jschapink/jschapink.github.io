@@ -47,7 +47,7 @@
 
 
     "home-intro-t1": "J’ai réalisé ce site pour vous faire découvrir mon profil combinant l’ingénierie mécanique et le développement informatique. Je vous présente ici l'approche créative, méthodique et rigoureuse que je mets en œuvre afin de concevoir des solutions innovantes face à une grande variété de problèmes techniques. Profitez-en également pour explorer les autres activités qui enrichissent mon profil au délà de la technique. Je me distingue notamment par ma capacité à collaborer efficacement et ma maîtrise bilingue d'anglais, ce qui facilite mon intégration au sein des équipes internationales. Enfin, j'achève un projet d'entrepreneuriat au sein duquel j'ai développé des compétences de gestion et d'organisation complémentaires à mon expertise technique.",
-    "home-intro-t2": "Je souhaite rejoindre une équipe où ma polyvalence sera un atout pour relever ensemble de nouveaux défis.",
+    "home-intro-t2": "Je souhaite rejoindre une équipe où ma polyvalence sera un atout pour relever les nouveaux défis.",
     "home-skill-title": "Mes Atouts Clés",
     "home-a1-summary": "Améliorer un processus en alliant simulations et essais afin de garantir une qualité optimale des produits.",
     "home-a2-summary": "Concevoir une machine de trie autonome pour réduire les arrêts couteux des lignes de production.",
@@ -55,6 +55,14 @@
     "home-a4-summary": "Réaliser de A à Z un cadre de vélo sur mesure, polyvalent et performant, sous la tutelle d'un artisan reconnu.",
     "home-a5-summary": "Faire de la rétro-ingénierie pour comprendre l’évolution des technologies dans le cyclisme.",
     "home-a6-summary": "Développer un moyen d'expression artistique par la maîtrise de concepts techniques, et d'appareils dotés d'une riche histoire technologique.",
+    "home-edu-1": "Architecture Informatique et Développement C",
+    "home-edu-2": "Master Ingénieur en Génie Mécanique et Innovation de Produits par alternance",
+    "home-edu-3": "Génie Mécanique et Productique",
+    "home-edu-1-summary": "École 42 Paris, 2022-2023",
+    "home-edu-2-summary": "INSA Lyon, 2017-2021",
+    "home-edu-3-summary": "IUT Lyon, 2015-2017",
+
+
 
 
     "education-title-1": "INSA Lyon",
