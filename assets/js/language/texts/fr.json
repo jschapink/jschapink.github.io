@@ -2,8 +2,8 @@
     "site-name": "CV Julian Schapink",
 
     "greeting": "Bonjour",
-    "hire-me": "Engagez-moi",
-    "download-resume": "Télécharger mon CV",
+    "hire-me": "Embauchez-moi",
+    "download-resume": "Téléchargement CV",
     "nav-home": "Accueil",
     "nav-work": "Expériences",
     "nav-hobbies": "Activités",
@@ -13,12 +13,13 @@
     "back": "Retour",
     "next-article": "Article suivant",
     "previous-article": "Article précédent",
-    "view-resume": "Consulter mon CV",
-    "view-hobbies": "Découvrir toutes mes activités",
-    "view-work": "Découvrir tous m es projets",
+    "view-resume": "Découvrir mon CV",
+    "view-hobbies": "Accéder aux autres activités",
+    "view-work": "Accéder aux autres projets",
+    "view-education": "Accéder aux autres formations",
 
-    "see-article-text": "Consulter l'article",
-    "toolbox-text": "Boîte à outils",
+    "see-article-text": "Lire l'article",
+    "toolbox-text": "Toolbox",
 
     "tag-cycling": "cyclisme",
     "tag-framebuilding": "framebuilding",
@@ -30,8 +31,8 @@
     "tag-cao": "CAO",
     "tag-experience": "plan d'expérience",
     "tag-induction": "induction",
-    "tag-excel": "excel VBA",
-    "tag-r&d": "R&D",
+    "tag-excel": "programmation excel VBA",
+    "tag-r&d": "Rercherche & Développement",
     "tag-ski": "ski",
     "tag-sociology": "sociologie",
 
@@ -55,12 +56,12 @@
     "home-a4-summary": "Réaliser de A à Z un cadre de vélo sur mesure, polyvalent et performant, sous la tutelle d'un artisan reconnu.",
     "home-a5-summary": "Faire de la rétro-ingénierie pour comprendre l’évolution des technologies dans le cyclisme.",
     "home-a6-summary": "Développer un moyen d'expression artistique par la maîtrise de concepts techniques, et d'appareils dotés d'une riche histoire technologique.",
-    "home-edu-1": "Architecture Informatique et Développement C",
-    "home-edu-2": "Master Ingénieur en Génie Mécanique et Innovation de Produits par alternance",
+    "home-edu-1": "Architecture Informatique et Développement Logiciel en C",
+    "home-edu-2": "Ingénierie Mécanique spécialisation en Conception et Innovation de Produits",
     "home-edu-3": "Génie Mécanique et Productique",
-    "home-edu-1-summary": "École 42 Paris, 2022-2023",
-    "home-edu-2-summary": "INSA Lyon, 2017-2021",
-    "home-edu-3-summary": "IUT Lyon, 2015-2017",
+    "home-edu-1-summary": "Formation continue à l'École 42 de Paris, promotion 2022-2023",
+    "home-edu-2-summary": "Formation par Alternance à l'INSA de Lyon, promotion GMCIP 2017-2021",
+    "home-edu-3-summary": "Formation continue à l'IUT de Lyon, promotion GMP 2015-2017",
 
 
 
