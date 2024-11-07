@@ -75,8 +75,7 @@ class Carousel extends HTMLElement {
                           <span aria-hidden="true">&times;</span>
                       </button>
                       <img src="${references[i]}" alt="image" class="img-fluid rounded-bottom-1">
-                      <div class="dialog-description text-center">
-                          ${captions[i]}
+                      <div class="dialog-description text-center ${captions[i]}">
                       </div>
                   </div>
               </div>
@@ -112,7 +111,7 @@ class Carousel extends HTMLElement {
           let carouselCaptionElement = document.createElement("div");
           carouselCaptionElement.classList.add("pt-3");
           carouselCaptionElement.classList.add("text-center");
-          carouselCaptionElement.textContent = captions[i];
+          carouselCaptionElement.classList.add(captions[i]);
 
           let carouselDotsDotElement = document.createElement("li");
           carouselDotsDotElement.classList.add("dot");
