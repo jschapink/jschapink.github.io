@@ -1,0 +1,123 @@
+.section-wrapper {
+    background-color:#ebebeb;
+    padding:30px;
+    margin-top:10rem;
+  }
+  h3 {
+    font-size: 34px;
+    color: #525252;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weigth: 700;
+  }
+  .carousel-wrapper {
+    font-family: "Lato", sans-serif;
+    overflow: hidden;
+  }
+  .carousel-wrapper * {
+    box-sizing: border-box;
+  }
+  .carousel {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+  }
+  .carousel {
+    transform-style: preserve-3d;
+  }
+  .carousel__card {
+    opacity: 0.4;
+  }
+  .carousel__card.active {
+    opacity: 1;
+  }
+  .carousel__card {
+    background-color: #fff;
+    display: grid;
+    align-items: center;
+  }
+  .carousel__card {
+    transition: transform 0.5s, opacity 0.5s, z-index 0.5s;
+  }
+  .carousel__button--prev, .carousel__button--next {
+      position: absolute;
+      top: 50%;
+      width: 3rem;
+      height: 3rem;
+      background-color: rgb(0 0 0 / 24%);
+      transform: translateY(-50%);
+      border-radius: 50%;
+      cursor: pointer;
+      z-index: 1001;        
+  }
+  .carousel__button--prev {
+    left: 0;
+  }
+  .carousel__button--next {
+    right: 0;
+  }
+  .carousel__button--prev::after,
+  .carousel__button--next::after {
+    content: " ";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    left: 54%;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: translate(-50%, -50%) rotate(135deg);
+  }
+  .carousel__button--next::after {
+    left: 47%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  li.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 5px;
+    cursor: pointer;
+  }
+  ul#dotList {
+    margin-top: 20px;
+    text-align: center;
+    padding: unset !important;
+  }
+  li.dot.active {
+    background-color: #525252;
+  }
+  
+  .img_container img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .dialog-description {
+    background-color: #0000008a;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: #e9ecef;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .dialog-close-button {
+    position: absolute;
+    right: 4%;
+    top: 2%;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: unset;
+    background: #0000008a;
+    color: #e9ecef;
+    cursor: pointer;
+  }
