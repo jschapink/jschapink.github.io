@@ -82,37 +82,37 @@ class ArticleTileFlat extends HTMLElement {
         }
 
         // Set the tools dynamically adding them to the list
-        if (tools && tools.length > 0 && tools[0] !== "") {
-            let h4Element = document.createElement('h4');
-            h4Element.classList.add('subtitle');
-            h4Element.classList.add('toolbox-text');
+        // if (tools && tools.length > 0 && tools[0] !== "") {
+        //     let h4Element = document.createElement('h4');
+        //     h4Element.classList.add('subtitle');
+        //     h4Element.classList.add('toolbox-text');
 
-            let toolElements = this.getElementsByClassName('tool-elements')[0];
-            toolElements.classList.remove('d-none');
-            toolElements.appendChild(h4Element);
+        //     let toolElements = this.getElementsByClassName('tool-elements')[0];
+        //     toolElements.classList.remove('d-none');
+        //     toolElements.appendChild(h4Element);
 
-            let ulElement = document.createElement('ul');
-            ulElement.classList.add('tech-stack');
-            ulElement.classList.add('list-inline');
-            for (let i in tools) {
-                if (tools[i]) {
-                    let list_child = document.createElement('li');
-                    let tooltip = tools[i].replace(".", "/").split("/").slice(-2)[0];
+        //     let ulElement = document.createElement('ul');
+        //     ulElement.classList.add('tech-stack');
+        //     ulElement.classList.add('list-inline');
+        //     for (let i in tools) {
+        //         if (tools[i]) {
+        //             let list_child = document.createElement('li');
+        //             let tooltip = tools[i].replace(".", "/").split("/").slice(-2)[0];
 
-                    list_child.classList.add('list-inline-item');
-                    list_child.innerHTML = `
-                        <img class="rounded" src="${tools[i]}" alt="${tools[i]}">
-                    `;
-                    list_child.setAttribute('data-toggle', 'tooltip');
-                    list_child.setAttribute('data-placement', 'bottom');
-                    list_child.setAttribute('title', tooltip);
-                    list_child.setAttribute('data-bs-delay', '{"show":0,"hide":0}');
+        //             list_child.classList.add('list-inline-item');
+        //             list_child.innerHTML = `
+        //                 <img class="rounded" src="${tools[i]}" alt="${tools[i]}">
+        //             `;
+        //             list_child.setAttribute('data-toggle', 'tooltip');
+        //             list_child.setAttribute('data-placement', 'bottom');
+        //             list_child.setAttribute('title', tooltip);
+        //             list_child.setAttribute('data-bs-delay', '{"show":0,"hide":0}');
 
-                    ulElement.appendChild(list_child);
-                    toolElements.appendChild(ulElement);
-                }
-            }
-        }
+        //             ulElement.appendChild(list_child);
+        //             toolElements.appendChild(ulElement);
+        //         }
+        //     }
+        // }
 
         this.addEventListener('mouseover', function() {
             this.mouseOver();
