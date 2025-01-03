@@ -36,7 +36,7 @@ class FormationTile extends HTMLElement {
             
                 <div class="col-12 formation-image-wrapper">
                     <a href="${schoolUrl}" target="_blank">
-                        <img class="formation-image" src="${imageSrc}" alt="image">
+                        <img loading="lazy" class="formation-image" src="${imageSrc}" alt="image">
                     </a>
                 </div>
             </div>

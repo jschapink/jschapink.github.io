@@ -7,6 +7,13 @@ const unitList = ["min-read-text"]
 
 const languageSelect = document.getElementById('language-select');
 
+const languageSet = {
+	false: "fr",
+	true: "en",
+	"fr": false,
+	"en": true
+}
+
 function setLangCookie(changeLanguage) {
 	const langCookie = Cookies.get('lang');
 	const url = new URL(location);
@@ -90,21 +97,10 @@ function fetch_texts(language) {
 }
 
 languageSelect.addEventListener('change', function () {
-	if (languageSelect.checked) {
-		setLangCookie("fr");
-	}
-	else {
-		setLangCookie("en");
-	}
+	setLangCookie(languageSet[languageSelect.checked]);
 });
 
 window.addEventListener('load', function () {
 	const language = setLangCookie();
-
-	if (language === "fr") {
-		languageSelect.checked = true;
-	}
-	else {
-		languageSelect.checked = false;
-	}
+	languageSelect.checked = languageSet[language];
 });

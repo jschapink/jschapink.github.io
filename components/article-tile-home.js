@@ -11,7 +11,7 @@ class ArticleTileHome extends HTMLElement {
 
         this.innerHTML = `
             <div class="card article-tile-home-card">
-                <img src="${image_reference}" class="card-img-top article-tile-home-img" alt="image">
+                <img loading="lazy" src="${image_reference}" class="card-img-top article-tile-home-img" alt="image">
                 <div class="card-body px-0">
                     <h5 class="card-title">
                         <a href="${article_reference}" class="${title_id} stretched-link"></a>

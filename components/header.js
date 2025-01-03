@@ -32,8 +32,8 @@ class Header extends HTMLElement {
                         
                         <input class="toggle" id="language-select" type="checkbox">
                         <label class="toggle-btn mx-auto mb-0" for="language-select">
-                            <span class="light-icon toggle-icon france-icon"></span>
-                            <span class="night-icon toggle-icon uk-icon"></span>
+                            <span class="light-icon toggle-icon uk-icon"></span>
+                            <span class="night-icon toggle-icon france-icon"></span>
                         </label>
                         
                     </div><!-- //lang-toggle -->

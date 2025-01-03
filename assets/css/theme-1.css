@@ -14243,7 +14243,7 @@ a.more-link .link-arrow .bi {
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-    transition: all .3s ease-in-out;
+    transition: all .4s ease-in-out;
     border: 2px solid var(--j-primary-color-1);
     border-radius: 54px
 }
@@ -14279,7 +14279,7 @@ a.more-link .link-arrow .bi {
 .mode-toggle .toggle+.toggle-btn:after {
     left: 2.5px;
     top: 2.5px;
-    transition: all .2s ease-in-out;
+    transition: all .4s ease-in-out;
     content: "";
     border-radius: 50%;
     width: 16.5px;

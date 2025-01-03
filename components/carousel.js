@@ -74,7 +74,7 @@ class Carousel extends HTMLElement {
                       <button class="dialog-close-button" type="button" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                       </button>
-                      <img src="${references[i]}" alt="image" class="img-fluid rounded-bottom-1">
+                      <img loading="lazy" src="${references[i]}" alt="image" class="img-fluid rounded-bottom-1">
                       <div class="dialog-description text-center ${captions[i]}">
                       </div>
                   </div>

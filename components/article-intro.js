@@ -22,7 +22,7 @@ class ArticleIntro extends HTMLElement {
                 <h1 class="post-title py-2 ${titleId} mb-10"></h1>
                 <div class="d-flex" style="margin-top: 45px">
                     <div class="pr-3">
-                        <img class="rounded-circle" style="width: 44px; height: 44px" src="/assets/images/profile-picture.jpg" alt="profile-picture">
+                        <img loading="lazy" class="rounded-circle" style="width: 44px; height: 44px" src="/assets/images/profile-picture.jpg" alt="profile-picture">
                     </div>
                     <div class="d-flex flex-column">
                         <div>Julian Schapink</div>

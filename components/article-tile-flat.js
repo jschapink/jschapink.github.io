@@ -18,6 +18,7 @@ class ArticleTileFlat extends HTMLElement {
             <div class="project-item-inner row">
                 <div class="col-12 col-lg-5 col-xl-4 article-tile-flat-image">
                     <div class="tile-image-hover cursor-pointer rounded-2"></div>
+                    <img loading="lazy" src=${image} class="project-thumb mb-3 mb-lg-0 mx-auto" style="max-height: 300px; border-radius: 2px;"/>
                 </div>
                 <div class="text-side-tile col-12 col-lg-7 col-xl-8" style="display: flex; flex-direction: column;">
                     <h2 class="title justify-content-between d-flex">
@@ -43,24 +44,13 @@ class ArticleTileFlat extends HTMLElement {
         `;
 
         let imageDiv = this.getElementsByClassName('article-tile-flat-image')[0];
+        imageDiv.style.borderRadius = "2px";
+        imageDiv.style.overflow = "hidden";
+
         let projectItemInner = this.getElementsByClassName('project-item-inner')[0];
         projectItemInner.onclick = function() {
             location.href = reference;
         }
-
-        let imageElement = document.createElement('img');
-        imageElement.src = image;
-        imageElement.classList.add('project-thumb');
-        imageElement.classList.add('mb-3');
-        imageElement.classList.add('mb-lg-0');
-        imageElement.classList.add('mx-auto');
-        imageElement.style.maxHeight = "300px";
-        imageElement.style.borderRadius = "2px";
-
-        imageDiv.style.borderRadius = "2px";
-        imageDiv.style.overflow = "hidden";
-
-        imageDiv.appendChild(imageElement);
 
         // Set the tags dynamically adding them to the list
         let postTags = this.getElementsByClassName('tag-elements')[0];
@@ -85,6 +75,7 @@ class ArticleTileFlat extends HTMLElement {
         });
 
         this.addEventListener('mouseout', function() {
+            let imageElement = this.getElementsByClassName('project-thumb')[0];
             imageElement.style.transform = "scale(1)";
         });
 
@@ -114,8 +105,10 @@ class ArticleTileFlat extends HTMLElement {
 
         imageElement.style.transform = "scale(1.1)";
 
-        imageElement.style.maxHeight = `${imageHoverElement.offsetHeight}px`;
-        imageElement.style.maxWidth = `${imageHoverElement.offsetWidth}px`;
+        if (imageHoverElement.offsetHeight !== 0) {
+            imageElement.style.maxHeight = `${imageHoverElement.offsetHeight}px`;
+            imageElement.style.maxWidth = `${imageHoverElement.offsetWidth}px`;
+        }
     }
 }
 
