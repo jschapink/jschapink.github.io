@@ -86,7 +86,7 @@
 
     "homepage": "------------------------------------------------------------------------------------------------------------------------------------",
     "home-intro-t1": "J’ai réalisé ce site pour vous faire découvrir mon profil combinant l’ingénierie mécanique et le développement informatique. Je vous présente ici les approches méthodiques et rigoureuses mises en œuvre dans la conception de solutions innovantes face à une grande variété de problèmes techniques. Vous pouvez également y découvrir d'autres activités qui enrichissent mon profil au délà de la technique. Je me distingue notamment par ma capacité à collaborer efficacement, avec une maîtrise bilingue d'anglais, ce qui facilite mon intégration au sein des équipes internationales. Enfin, j'achève un projet entrepreunarial au cours duquel j'ai développé de nouvelles compétences de gestion complémentaires à mon expertise technique.",
-    "home-intro-t2": "Je souhaite rejoindre une équipe où ma polyvalence sera un atout pour relever les nouveaux défis.",
+    "home-intro-t2": "Je souhaite rejoindre une équipe où ma polyvalence sera un atout pour relever ensemble les nouveaux défis.",
     "home-skill-title": "Mes Atouts Clés",
     "home-a1-summary": "Améliorer un processus par la simulation et des essais pour garantir les spécifications du produit.",
     "home-a2-summary": "Concevoir une machine de contrôle autonome pour éviter les arrêts des lignes de production.",
@@ -121,7 +121,7 @@
 
     "resume": "------------------------------------------------------------------------------------------------------------------------------------",
     "resume-about-me-text": "À propos",
-    "resume-summary-text": "J'approche les problèmes techniques avec une méthodologie rigoureuse pour concevoir des solutions innovantes. Collaborateur à double compétence et bilingue en anglais, ce qui me permet de m'intégrer facilement au sein de toutes les équipes. Mon expérience entrepreneuriale m'a aidé à développer des compétences complémentaires à mon expertise technique, renforçant ainsi mon adaptabilité. Je recherche de nouveaux défis où je pourrai valoriser pleinement ma polyvalence.",
+    "resume-summary-text": "Je suis un collaborateur à double compétence qui sait approcher les problèmes techniques avec une méthodologie rigoureuse afin de concevoir des solutions innovantes. Grâce à une expérience entrepreneuriale formatrice et une maîtrise bilingue de l'anglais, je sais m’intégrer facilement au sein des différentes équipes. Je suis actuellement à la recherche de nouveaux défis où mettre à profit ma polyvalence.",
     "resume-education-title": "Formations",
     "resume-hobbies-title": "Activités",
     "resume-skills-title": "Compétences",
@@ -135,7 +135,7 @@
 
     "a1": "------------------------------------------------------------------------------------------------------------------------------------",
     "a1-title": "Fabrication artisanale de cycles brasés sur-mesure",
-    "a1-tile-intro": "Explorez ce projet où j'ai conçu et fabriqué un cadre de vélo sur mesure alliant performance et polyvalence. De la conception à l'assemblage final par soudo-brasure, chaque étape a été orchestrée avec des décisions techniques précises, démontrant ainsi mes compétences en ingénierie mécanique.",
+    "a1-tile-intro": "Réaliser de A à Z un cadre de vélo sur mesure, polyvalent et performant, sous la tutelle d'un artisan reconnu.",
     "a1-intro": "Pendant ce projet, l'objectif était de créer un cadre de vélo sur mesure mettant l'accent sur la polyvalence. J'ai cherché à concevoir un vélo capable de combiner agilité et vitesse pour les saisons estivales, tout en restant stable et adapté aux conditions hivernales. De la conception et la modélisation de la géométrie jusqu’à la fabrication du cadre, j'ai pris en charge l'intégralité du processus. Les décisions techniques, telles que le choix des matériaux, des tubes, et des standards pour les interfaces, la transmission, le freinage, ont été prises avec rigueur. Les étapes pratiques de la fabrication, allant du grugeage des tubes aux derniers ajustements, au pointage, et enfin, à l'assemblage par brasage au bronze et à l'argent, ont été exécutées avec précision.",
     "a1-h1": "Conception",
     "a1-h1-s1": "Inspiration, mesures et géométrie",
@@ -162,7 +162,7 @@
 
     "a2": "------------------------------------------------------------------------------------------------------------------------------------",
     "a2-title": "Passion du cyclisme et collection historique",
-    "a2-tile-intro": "Plongez dans une collection de vélos qui conjugue ingénierie, art et histoire, révélant l'évolution technologique de l'ingénierie mécanique dans le domaine du cyclisme. Chaque pièce reflète un artisanat méticuleux, une expression artistique et des exploits sportifs, offrant une immersion captivante dans l'univers du cyclisme.",
+    "a2-tile-intro": "Faire de la rétro-ingénierie pour comprendre l’évolution des technologies dans le cyclisme.",
     "a2-intro": "Bien plus qu'un simple assemblage de pièces mécaniques, ma collection de vélos incarne un témoignage vivant des avancées technologiques, d'un artisanat élevé au rang de l'art, et des exploits sportifs historiques. Chaque vélo, méticuleusement sélectionné, devient une pièce unique racontant une histoire singulière dans le monde du cyclisme. Découvrez au travers de cette exploration une métamorphose où un cadre de vélo devient une toile pour l'innovation, les maîtres cadreurs des artistes, et chaque vélo un témoin privilégié de l'histoire du cyclisme.",
     "a2-h1": "Une collection comme vitrine technologique",
     "a2-h1-t1": "Le cadre d'un vélo constitue une plateforme pour des avancées technologiques marquantes, intégrant une diversité de matériaux et de techniques d'assemblage. Les matériaux, tels que l'acier, l'aluminium, le magnésium, le titane, et les composites (carbone, kevlar, bois), sont associés à divers procédés d'assemblage tels que la soudure, l'emmanchage, le moulage, et plus récemment la fabrication additive métallique. Des innovations historiques, comme le 'butting' des tubes en acier permettant d'ajuster les épaisseurs de section dans un seul tube en fonction des contraintes, illustrent ces avancées techniques. L'évolution des géométries, soutenue par des principes de biomécanique et des essais en soufflerie pour évaluer les impacts aérodynamiques, joue également un rôle crucial dans ces progrès.",
@@ -184,7 +184,7 @@
 
     "a3": "------------------------------------------------------------------------------------------------------------------------------------",
     "a3-title": "Photographie professionnelle et collection argentique",
-    "a3-tile-intro": "Explorez ma passion pour la photographie en tant que forme d'expression artistique subtile et technique, découvrant son évolution à travers la rétro-ingénierie des dispositifs argentiques et la collection d'appareils emblématiques.",
+    "a3-tile-intro": "Développer un moyen d'expression artistique par la maîtrise de concepts techniques, et d'appareils dotés d'une riche histoire technologique.",
     "a3-intro": "La photographie, bien plus qu'une simple capture d'images, est pour moi une démarche artistique subtile où l'on compose avec le réel comme moyen d'expression dans sa forme la plus pure. J'ai exploré cette passion à travers différentes techniques, de la photographie numérique à l'argentique, tout en étudiant l'histoire et l'évolution des dispositifs photographiques.",
     "a3-h1": "Mon expérience de photographie",
     "a3-h1-t1": "Issue d'une lignée où la photographie était omniprésente, avec mon grand-père, mon frère et mon père pratiquant tous la photographie, tandis que ma mère, elle, était devant l'objectif durant sa carrière de mannequin, j'ai développé une profonde appréciation pour cet art. Bien que les capteurs numériques et les smartphones offrent désormais des outils photographiques accessibles à tous, j'ai débuté ma pratique avec ces dispositifs avant de progresser vers une compréhension plus profonde des techniques d'exposition et de l'art du photographe en me plongeant dans les grands ouvrages du domaine. Après une période dans la photographie numérique, j'ai choisi de me tourner vers la pratique argentique, plus exigeante mais aussi plus gratifiante, m'offrant une expérience photographique plus intense et me permettant de progresser rapidement.",
@@ -199,7 +199,7 @@
 
     "a4": "------------------------------------------------------------------------------------------------------------------------------------",
     "a4-title": "Activités électromécaniques et culture Maker",
-    "a4-tile-intro": "Adapte de la fabrication additive et des réparations électroniques, je maîtrise une variété de domaines allant du logiciel à la mécanique générale. Mon engagement dans le DIY et la culture Maker reflète une philosophie de vie où la compréhension des systèmes est primordiale.",
+    "a4-tile-intro": "Explorer une variété de domaines de la culture Maker (DIY) allant du logiciel à la mécanique générale, en passant par l’électronique ou la fabrication additive.",
     "a4-intro": "La culture Maker et DIY fait partie intégrante de mon profil, héritée d'une lignée familiale où l'ingéniosité et la curiosité intellectuelle sont des valeurs primordiales. Cette tradition d'innovation remonte à plusieurs générations, avec mon arrière-grand-père qui dessinait déjà des plans d'éoliennes à la main, tandis que mon grand-père était entrepreneur dans l'aéronautique et mon père travaillait pour le programme spatial Arianne. Ce contexte m'a inculqué une volonté de comprendre les mécanismes qui m'entourent à travers une approche systématique, fondamentale dans ma quête d'exploration et d'innovation.",
     "a4-h1": "Culture Maker et DIY",
     "a4-h1-t1": "Dans le domaine de la fabrication additive, j'ai acquis une expertise en améliorant progressivement ma première machine par diverses mises à niveau, telles que la modification de son micro-logiciel ou l'installation de capteurs pour le nivellement automatique du plateau d’impression. J'ai exploré les paramètres d'impression dans les logiciels de découpe et utilisé une variété de matériaux pour répondre à diverses applications, de la fabrication de pièces en plastique (PLA, PETG, ABS) aux impressions métalliques en frittage de poudre (acier inoxydable, cuivre).",
@@ -215,7 +215,7 @@
 
     "a5": "------------------------------------------------------------------------------------------------------------------------------------",
     "a5-title": "Pratiques sportives et enthousiame intellectuel",
-    "a5-tile-intro": "xxxxx",
+    "a5-tile-intro": "Parcourir les sentiers escarpés des montagnes à pieds, à vélo ou à ski.",
     "a5-intro": "Découvrez les autres pratiques sportives et intellectuelles qui nourrissent mon corps et mon esprit. Je navigue ainsi entre les sentiers escarpés des Alpes et les dédales intellectuels des sciences sociales, en passant par les étonnements philosophiques universels et d'autres activités sportives bien plus concrêtes, afin d'atteindre mon équilibre de vie.",    
     "a5-h1": "Pratiques Sportives",
     "a5-h1-t1": "Le cyclisme et la randonnée sont des activités qui m'offrent des défis stimulants pour explorer ma capacité physique. Chaque sortie vélo, qu'elle soit sur routes sinueuses bitumées, chemins de gravel exigeants ou sentiers sauvages de cross-country, est une aventure nouvelle dont je ne me lasse pas. De la même manière les sorties randonnées, qui s'étendent parfois sur plusieurs jours, en passant par des refuges isolés, m'apportent tout autant de sérénité. Je ne saurai trouver autre chose qui puisse m'apporter autant de satisfaction que la simplicité de la vie en plein air et la contemplation de la nature.",
