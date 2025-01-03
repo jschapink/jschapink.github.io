@@ -14480,18 +14480,10 @@ a.more-link .link-arrow .bi {
 .tile-image-hover {
     position: absolute;
     z-index: 2;
-    transition: all .4s ease-in-out;
-    opacity: 0.2;
-    background: white;
 }
 
 .project-item-inner:hover {
     cursor: pointer;
-
-    .tile-image-hover {
-        z-index: 2;
-        background: none;
-    }
 
     .project-thumb {
         box-shadow: var(--bs-box-shadow-md) !important
@@ -14504,6 +14496,10 @@ a.more-link .link-arrow .bi {
     
     a.more-link .link-arrow {
         margin-left: .5rem
+    }
+
+    .article-tile-flat-image {
+        filter: brightness(0.7);
     }
 }
 
@@ -15011,7 +15007,7 @@ a.more-link .link-arrow .bi {
 }
 
 .blog-quote-holder {
-    background: #273248;
+    background: #f7f7f7;
     position: relative
 }
 
@@ -15505,7 +15501,7 @@ a.more-link .link-arrow .bi {
 }
 
 .light-mode .blog-quote-holder {
-    background: #f5f7fa
+    background: #f7f7f7
 }
 
 .light-mode .blog-quote-holder .blockquote {
@@ -15870,18 +15866,14 @@ body {
     transform-style: preserve-3d;
   }
   .carousel__card {
-    opacity: 0.4;
-  }
-  .carousel__card.active {
-    opacity: 1;
-  }
-  .carousel__card {
     background-color: #fff;
     display: grid;
     align-items: center;
+    filter: brightness(0.6);
+    transition: all 0.5s ease-in-out;
   }
-  .carousel__card {
-    transition: transform 0.5s, opacity 0.5s, z-index 0.5s;
+  .carousel__card.active {
+    filter: brightness(1);
   }
   .carousel__button--prev, .carousel__button--next {
       position: absolute;
@@ -15895,10 +15887,10 @@ body {
       z-index: 1001;        
   }
   .carousel__button--prev {
-    left: 0;
+    left: 0.5vh;
   }
   .carousel__button--next {
-    right: 0;
+    right: 0.5vh;
   }
   .carousel__button--prev::after,
   .carousel__button--next::after {
@@ -15964,4 +15956,26 @@ body {
     background: #0000008a;
     color: #e9ecef;
     cursor: pointer;
+  }
+
+  .article-tile-home-img {
+    filter: brightness(1);
+    transition: filter 0.3s;
+  }
+
+  .article-tile-home-card:hover {
+    .article-tile-home-img {
+        filter: brightness(0.7);
+    }
+    a.more-link {
+        text-decoration: underline;
+        color: var(--j-primary-color-1);
+    }
+    a.more-link .link-arrow {
+        margin-left: .5rem
+    }
+  }
+
+  mark {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #df6aff 50%);
   }

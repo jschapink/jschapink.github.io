@@ -7,6 +7,7 @@ class PageIntro extends HTMLElement {
         var nArticles = this.attributes.nArticles.value;
         var titleId = this.attributes.titleId.value;
         var introId = this.attributes.introId.value;
+        var isFormations = this.attributes.isFormations ? this.attributes.isFormations.value : false;
 
         let divElement = document.createElement('div');
         divElement.classList.add('intro-holder');
@@ -50,7 +51,7 @@ class PageIntro extends HTMLElement {
         footerDiv.appendChild(iElement);
 
         let spanElement = document.createElement('span');
-        spanElement.innerHTML = `${nArticles} Articles`;
+        spanElement.innerHTML = `${nArticles} ${isFormations ? "Formations" : "Articles"}`;
         footerDiv.appendChild(spanElement);
 
         divElement.appendChild(footerDiv);

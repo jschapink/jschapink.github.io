@@ -10,11 +10,11 @@ class ArticleTileHome extends HTMLElement {
         var summary_id = this.attributes.summary_id.value;
 
         this.innerHTML = `
-            <div class="card">
-                <img src="${image_reference}" class="card-img-top" alt="image">
+            <div class="card article-tile-home-card">
+                <img src="${image_reference}" class="card-img-top article-tile-home-img" alt="image">
                 <div class="card-body px-0">
                     <h5 class="card-title">
-                        <a href="${article_reference}" class="${title_id}"></a>
+                        <a href="${article_reference}" class="${title_id} stretched-link"></a>
                     </h5>
                     <p class="card-text mb-1 ${summary_id}"></p>
                     <div class="home-page-link">

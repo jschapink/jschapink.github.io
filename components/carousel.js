@@ -1,7 +1,7 @@
 class Carousel extends HTMLElement {
-  constructor() {
-      super();
-  }
+    constructor() {
+        super();
+    }
 
   add_classes(element, class_names) {
       for (let i in class_names) {

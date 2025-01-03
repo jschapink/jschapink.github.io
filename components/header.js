@@ -16,7 +16,7 @@ class Header extends HTMLElement {
                         <li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="#"><i class="fa-brands fa-github fa-fw"></i></a></li> -->
 
                         <li class="list-inline-item me-0 me-md-1 me-lg-2">
-                            <a target="_blank" href="http://bit.ly/jschapink" data-toggle="tooltip" data-placement="bottom" title="Linkedin" data-delay="{ "show": 0, "hide": 0 }"><i class="fa-brands fa-linkedin-in fa-fw"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/jschapink/" data-toggle="tooltip" data-placement="bottom" title="Linkedin" data-delay="{ "show": 0, "hide": 0 }"><i class="fa-brands fa-linkedin-in fa-fw"></i></a>
                         </li>
                         <li class="list-inline-item me-0 me-md-1 me-lg-2">
                             <a href="mailto: julian.schapink@gmail.com" data-toggle="tooltip" data-placement="bottom" title="Envoyer un email" data-delay="{ "show": 0, "hide": 0 }">
@@ -24,7 +24,7 @@ class Header extends HTMLElement {
                             </a>
                         </li>
                         <li class="list-inline-item me-0 me-md-1 me-lg-2">
-                            <a href="./assets/CV Julian 2024.pdf" download="Julian Schapink CV.pdf" data-toggle="tooltip" data-placement="bottom" title="Télécharger le CV" data-delay="{ "show": 0, "hide": 0 }"><i class="bi bi-arrow-down-circle"></i></a>
+                            <a href="./assets/CV-Schapink-2025.pdf" download="CV-Schapink-2025.pdf" data-toggle="tooltip" data-placement="bottom" title="Télécharger le CV" data-delay="{ "show": 0, "hide": 0 }"><i class="bi bi-arrow-down-circle"></i></a>
                         </li>
                     </ul><!--//social-list-->
 

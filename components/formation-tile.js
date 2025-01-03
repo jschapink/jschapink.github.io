@@ -12,31 +12,34 @@ class FormationTile extends HTMLElement {
         var titleId = this.attributes.titleId.value;
         var imageSrc = this.attributes.imageSrc.value;
         var smallImageSrc = this.attributes.smallImageSrc ? this.attributes.smallImageSrc.value : "";
+        var schoolUrl = this.attributes.schoolUrl ? this.attributes.schoolUrl.value : "";
 
         this.innerHTML = `
-        <div class="row">
-            <div class="d-flex flex-wrap col-12">
-                <div class="mr-4 mb-3 overflow-hidden school-logo-image-wrapper" style="max-width: 290px !important; max-height: 80px !important;">
-                </div>
-                <div style="color: #6b6b6b">
-                    <h5 class="card-title ${titleId}"></h5>
-                    <div class="d-flex flex-wrap" style="color: #6b6b6b">
-                        <div class="pr-2">${date}</div>
-                        <div>${location}</div>
+            <div class="row">
+                <div class="d-flex flex-wrap col-12">
+                    <div class="mr-4 mb-3 overflow-hidden school-logo-image-wrapper" style="max-width: 290px !important; max-height: 80px !important;">
                     </div>
-                    <div class="${subtitleId}"></div>
+                    <div style="color: #6b6b6b">
+                        <h5 class="card-title ${titleId}"></h5>
+                        <div class="d-flex flex-wrap" style="color: #6b6b6b">
+                            <div class="pr-2">${date}</div>
+                            <div>${location}</div>
+                        </div>
+                        <div class="${subtitleId}"></div>
+                    </div>
+                </div>
+
+                <div class="col-12 pb-3 pt-2">
+                    <hr>
+                    <div class="${textId}"></div>
+                </div>
+            
+                <div class="col-12 formation-image-wrapper">
+                    <a href="${schoolUrl}" target="_blank">
+                        <img class="formation-image" src="${imageSrc}" alt="image">
+                    </a>
                 </div>
             </div>
-            
-            <div class="col-12 pb-3 pt-2">
-                <hr>
-                <div class="${textId}"></div>
-            </div>
-        
-            <div class="col-12 formation-image-wrapper">
-                <img class="formation-image" src="${imageSrc}" alt="image">
-            </div>
-        </div>
         `;
 
         let schoolLogoImageWrapper = this.getElementsByClassName('school-logo-image-wrapper')[0];

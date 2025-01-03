@@ -12,6 +12,7 @@ class ArticleTileFlat extends HTMLElement {
         var tags = this.attributes.tags ? JSON.parse(this.attributes.tags.value): null;
         var tools = this.attributes.tools ? JSON.parse(this.attributes.tools.value): null;
         var image = this.attributes.image ? this.attributes.image.value : null;
+        var timeRead = this.attributes.timeRead ? this.attributes.timeRead.value : 0;
 
         this.innerHTML = `
             <div class="project-item-inner row">
@@ -19,23 +20,21 @@ class ArticleTileFlat extends HTMLElement {
                     <div class="tile-image-hover cursor-pointer rounded-2"></div>
                 </div>
                 <div class="text-side-tile col-12 col-lg-7 col-xl-8" style="display: flex; flex-direction: column;">
-                    <h3 class="title justify-content-between d-flex">
+                    <h2 class="title justify-content-between d-flex">
                         <a href="${reference}" class="${titleId}"></a>
-                    </h3>
-                    
-                    
-                    <div class="intro ${introId}"></div>
+                    </h2>
 
-                    <div class="d-flex flex-wrap my-3 tag-elements">
-                    </div>
+                    <div class="intro ${introId} mt-3 mb-3"></div>
 
                     <div class="d-none tool-elements"></div>
 
                     <div style="margin-top: auto; justify-content: flex-end;">
+                        <div class="d-flex flex-wrap my-3 tag-elements">
+                        </div>
                         <hr>
                         <div style="font-size: 14px; opacity: 0.5;">
                             <i class="bi bi-stopwatch me-1"></i>
-                            <span class="min-read-text">3 min read</span>
+                            <span class="min-read-text">${timeRead} min read</span>
                         </div>
                     </div>
                     
@@ -81,39 +80,6 @@ class ArticleTileFlat extends HTMLElement {
             postTags.appendChild(list_child);
         }
 
-        // Set the tools dynamically adding them to the list
-        // if (tools && tools.length > 0 && tools[0] !== "") {
-        //     let h4Element = document.createElement('h4');
-        //     h4Element.classList.add('subtitle');
-        //     h4Element.classList.add('toolbox-text');
-
-        //     let toolElements = this.getElementsByClassName('tool-elements')[0];
-        //     toolElements.classList.remove('d-none');
-        //     toolElements.appendChild(h4Element);
-
-        //     let ulElement = document.createElement('ul');
-        //     ulElement.classList.add('tech-stack');
-        //     ulElement.classList.add('list-inline');
-        //     for (let i in tools) {
-        //         if (tools[i]) {
-        //             let list_child = document.createElement('li');
-        //             let tooltip = tools[i].replace(".", "/").split("/").slice(-2)[0];
-
-        //             list_child.classList.add('list-inline-item');
-        //             list_child.innerHTML = `
-        //                 <img class="rounded" src="${tools[i]}" alt="${tools[i]}">
-        //             `;
-        //             list_child.setAttribute('data-toggle', 'tooltip');
-        //             list_child.setAttribute('data-placement', 'bottom');
-        //             list_child.setAttribute('title', tooltip);
-        //             list_child.setAttribute('data-bs-delay', '{"show":0,"hide":0}');
-
-        //             ulElement.appendChild(list_child);
-        //             toolElements.appendChild(ulElement);
-        //         }
-        //     }
-        // }
-
         this.addEventListener('mouseover', function() {
             this.mouseOver();
         });
@@ -146,12 +112,10 @@ class ArticleTileFlat extends HTMLElement {
         let imageElement = this.getElementsByClassName('project-thumb')[0];
         let imageHoverElement = this.getElementsByClassName('tile-image-hover')[0];
 
-        if (imageHoverElement.offsetHeight > 0 && imageHoverElement.offsetWidth > 0) {
-            imageElement.style.transform = "scale(1.1)";
+        imageElement.style.transform = "scale(1.1)";
 
-            imageElement.style.maxHeight = `${imageHoverElement.offsetHeight}px`;
-            imageElement.style.maxWidth = `${imageHoverElement.offsetWidth}px`;
-        }
+        imageElement.style.maxHeight = `${imageHoverElement.offsetHeight}px`;
+        imageElement.style.maxWidth = `${imageHoverElement.offsetWidth}px`;
     }
 }
 

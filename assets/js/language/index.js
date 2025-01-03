@@ -43,6 +43,7 @@ function add_text_content(languageTexts, language, key, textContent) {
 		else {
 			console.log(`Error: Key not found in language texts ${key}`);
 		}
+		return text;
 	}
 
 	if (unitList.includes(key) && textContent !== "" && textContent !== null && textContent !== undefined) {
@@ -76,12 +77,12 @@ function fetch_texts(language) {
 				if (elements.length > 0) {
 					for (let i in elements) {
 						if (elements[i] && i !== "length") {
-							elements[i].textContent = add_text_content(languageTexts, language, key, elements[i].textContent);
+							elements[i].innerHTML = add_text_content(languageTexts, language, key, elements[i].textContent);
 						}
 					}
 				} else {
 					const element = document.getElementById(key);
-					if (element) {element.textContent = add_text_content(languageTexts, language, key, element.textContent);};
+					if (element) {element.innerHTML = add_text_content(languageTexts, language, key, element.textContent);};
 				}
 			}
 		})
