@@ -71,29 +71,44 @@ function add_text_content(languageTexts, language, key, textContent) {
 	return text;
 }
 
+
+function loadTexts(languageTexts, language) {
+	let selectedTexts = languageTexts[language];
+
+	for (const key in selectedTexts) {
+		const elements = document.getElementsByClassName(key);
+		if (elements.length > 0) {
+			for (let i in elements) {
+				if (elements[i] && i !== "length") {
+					elements[i].innerHTML = add_text_content(languageTexts, language, key, elements[i].textContent);
+				}
+			}
+		} else {
+			const element = document.getElementById(key);
+			if (element) {element.innerHTML = add_text_content(languageTexts, language, key, element.textContent);};
+		}
+	}
+}
+
+
 function fetch_texts(language) {
-	const promises = Object.values(paths).map(path => fetch(path));
-	Promise.all(promises)
+	var cachedData = localStorage.getItem("languageTexts");
+
+	if (cachedData) {
+		let languageTexts = JSON.parse(cachedData);
+		loadTexts(languageTexts, language);
+	} else {
+		const promises = Object.values(paths).map(path => fetch(path));
+		Promise.all(promises)
 		.then(responses => Promise.all(responses.map(response => response.json())))
 		.then(data => {
 			let languageTexts = {"fr": data[1], "en": data[0]};
-			let selectedTexts = languageTexts[language];
-
-			for (const key in selectedTexts) {
-				const elements = document.getElementsByClassName(key);
-				if (elements.length > 0) {
-					for (let i in elements) {
-						if (elements[i] && i !== "length") {
-							elements[i].innerHTML = add_text_content(languageTexts, language, key, elements[i].textContent);
-						}
-					}
-				} else {
-					const element = document.getElementById(key);
-					if (element) {element.innerHTML = add_text_content(languageTexts, language, key, element.textContent);};
-				}
-			}
+			loadTexts(languageTexts, language);
+			localStorage.setItem("languageTexts", JSON.stringify(languageTexts));
 		})
 		.catch(error => console.log(error));
+
+	}
 }
 
 languageSelect.addEventListener('change', function () {

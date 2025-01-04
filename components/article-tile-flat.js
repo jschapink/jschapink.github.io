@@ -90,6 +90,11 @@ class ArticleTileFlat extends HTMLElement {
         let imageElement = this.getElementsByClassName('project-thumb')[0];
         let imageHoverElement = this.getElementsByClassName('tile-image-hover')[0];
 
+        if (imageElement.offsetHeight === 0 || imageElement.offsetWidth === 0) {
+            console.log("Image element has no height or width");
+            return;
+        }
+
         imageHoverElement.style.width = `${imageElement.offsetWidth}px`;
         imageHoverElement.style.height = `${imageElement.offsetHeight}px`;
 
@@ -105,7 +110,7 @@ class ArticleTileFlat extends HTMLElement {
 
         imageElement.style.transform = "scale(1.1)";
 
-        if (imageHoverElement.offsetHeight !== 0) {
+        if (imageHoverElement.offsetHeight !== 0 && imageHoverElement.offsetWidth !== 0) {
             imageElement.style.maxHeight = `${imageHoverElement.offsetHeight}px`;
             imageElement.style.maxWidth = `${imageHoverElement.offsetWidth}px`;
         }
