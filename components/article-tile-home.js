@@ -26,10 +26,6 @@ class ArticleTileHome extends HTMLElement {
                 </div>
             </div>
         `;
-    
-        let homeLink = this.getElementsByClassName("home-page-link")[0];
-        homeLink.style.position = "absolute";
-        homeLink.style.bottom = "0";
       }
 }
 

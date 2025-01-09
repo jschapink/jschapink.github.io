@@ -23,6 +23,7 @@ class Carousel extends HTMLElement {
       carouselWrapperElement.setAttribute("id", `${document_id}-carousel-wrapper`);
 
       let carouselElement = document.createElement("div");
+      carouselElement.setAttribute("id", `${document_id}-carousel`);
       carouselElement.classList.add("carousel");
 
       let carouselDotsElement = document.createElement("div");
@@ -32,6 +33,7 @@ class Carousel extends HTMLElement {
       carouselDotsListElement.style.marginTop = "20px";
       carouselDotsListElement.style.textAlign = "center";
       carouselDotsListElement.style.padding = "unset !important";
+      carouselDotsListElement.style.marginBottom = "unset";
 
       for (let i in references) {
           let carouselCardElement = document.createElement("div");
@@ -67,6 +69,8 @@ class Carousel extends HTMLElement {
               "rounded-1",
           ]);
           carouselCardImageModalDialogElement.setAttribute('role', 'document');
+          carouselCardImageModalDialogElement.style.overflow = "hidden";
+          carouselCardImageModalDialogElement.style.maxWidth = "fit-content";
 
           carouselCardImageModalDialogElement.innerHTML = `
               <div class="modal-content rounded-1">
@@ -74,7 +78,7 @@ class Carousel extends HTMLElement {
                       <button class="dialog-close-button" type="button" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                       </button>
-                      <img loading="lazy" src="${references[i]}" alt="image" class="img-fluid rounded-bottom-1">
+                      <img loading="lazy" src="${references[i]}" alt="image" class="img-fluid rounded-bottom-1" style="max-height: 90vh;">
                       <div class="dialog-description text-center ${captions[i]}">
                       </div>
                   </div>
@@ -160,7 +164,8 @@ class Carousel extends HTMLElement {
       let dots = [];
 
       for (let i in references) {
-          items.push(document.getElementById(`${document_id}-carousel__card-${i}`));
+          var item = document.getElementById(`${document_id}-carousel__card-${i}`);
+          items.push(item);
           dots.push(document.getElementById(`${document_id}-dot-${i}`));
       }
 
@@ -177,6 +182,9 @@ class Carousel extends HTMLElement {
       console.log(`initial_offset = ${initial_offset}`);
       console.log(`items[0].offsetWidth = ${items[0].offsetWidth}`);
       console.log(`full_initial_offset = ${full_initial_offset}`);
+
+      prevbtn.style.width = `${(carousel_wrapper.offsetWidth - 400) / 2}px`;
+      nextbtn.style.width = `${(carousel_wrapper.offsetWidth - 400) / 2}px`;
       
       moveCardsHorizontally(initial_offset);
 
@@ -247,14 +255,19 @@ class Carousel extends HTMLElement {
       function moveCardsDotsHorizontally(dir) {
           moveCardsHorizontally(-getNewPosition(dir));
           storeOldIndex = activeSlide;
-          console.log(`storeOldIndex= ${storeOldIndex}`);
           if (dir === "left") {
               activeSlide = activeSlide - 1;
-              console.log(`activeSlide - 1 = ${activeSlide}`);
           } else {
               activeSlide = activeSlide + 1;
-              console.log(`activeSlide + 1 = ${activeSlide}`);
           }
+            if (activeSlide == 0) {
+                prevbtn.style.opacity = "0%";
+            } else if (activeSlide == totalItems - 1) {
+                nextbtn.style.opacity = "0%";
+            } else {
+                prevbtn.style.opacity = "100%";
+                nextbtn.style.opacity = "100%";
+            }
           toggleActiveClass(storeOldIndex, activeSlide);
       }
 

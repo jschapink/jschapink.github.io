@@ -40,6 +40,7 @@
 	<script src="/components/button-link.js" type="text/javascript" defer></script>
 	<script src="/components/article-intro.js" type="text/javascript" defer></script>
 	<script src="/components/article-nav.js" type="text/javascript" defer></script>
+	<script src="/components/blogquote-figure.js" type="text/javascript" defer></script>
 
 </head>
 
@@ -55,7 +56,7 @@
 				<j-header></j-header>
 
 				<section class="page-intro-section section mx-auto">
-					<div class="section-text-end">
+					<div class="section-text-top">
 						<j-article-intro
 						titleId="a1-title"
 						introId="a1-intro"
@@ -68,17 +69,26 @@
 						<div class="post-content">
 
 							<!-- Conception -->
-							<h2 class="post-content-heading section-text">
-								<span class="a1-h1"></span>
-							</h2>
-							<h3 class="post-content-subheading a1-h1-s1 section-text" style="margin-top: 45px"></h3>
+							<div class="section-text">
+								<h2>
+									<mark class="a1-h1"></mark>
+								</h2>
+								<h3 class="post-content-subheading a1-h1-s1"></h3>
+							</div>
 
 							<div class="d-flex overflow-hidden article-image-wrapper">
 								<img loading="lazy" class="object-fit-cover" style="height: inherit; width: inherit" src="/assets/images/hobbies/article-1/img-a1-1p.jpeg" alt="article-1-image">
 							</div>
 
-							<p class="a1-h1-s1-t1 section-text" style="margin-top: 35px"></p>
-							<p class="a1-h1-s1-t2 section-text" style="margin-top: 35px"></p>
+							<div class="section-text">
+								<j-blogquote-figure title-class="a1-h1-q1" text-class="a1-h1-q2"></j-blogquote-figure>
+
+								<p class="a1-h1-s1-t1"></p>
+								<p class="a1-h1-s1-t2"></p>
+								<p class="a1-h1-s1-t3"></p>
+								<p class="a1-h1-s1-t4"></p>
+							</div>
+
 							<j-carousel 
 							style="margin-top: 35px; padding-left: 20px"
 							references='[
@@ -90,17 +100,29 @@
 								"Caption_test_fig1"
 							]'>
 							</j-carousel>
-							<p class="a1-h1-s1-t3 section-text" style="margin-top: 35px"></p>
+							<p class="a1-h1-s1-t5 section-text"></p>
 
-							<h3 class="post-content-subheading a1-h1-s2 section-text" style="margin-top: 45px"></h3>
+							<!-- Choix techniques et assemblage -->
+							<h3 class="post-content-subheading a1-h1-s2 section-text"></h3>
 	
 							<div class="d-flex overflow-hidden article-image-wrapper">
 								<img loading="lazy" class="object-fit-cover" style="height: inherit; width: inherit" src="/assets/images/hobbies/article-1/img-a1-5p.jpeg" alt="article-1-image">
 							</div>
 
-							<p class="a1-h1-s2-t1 section-text" style="margin-top: 35px"></p>
-							<p class="a1-h1-s2-t2 section-text" style="margin-top: 35px"></p>
-							<p class="a1-h1-s2-t3 section-text" style="margin-top: 35px"></p>
+							<div class="section-text">
+								<j-blogquote-figure title-class="a1-h1-s2-q1" text-class="a1-h1-s2-q2"></j-blogquote-figure>
+								<p class="a1-h1-s2-t1"></p>
+								<ul>
+									<li class="a1-h1-s2-l1"></li>
+									<li class="a1-h1-s2-l2"></li>
+									<li class="a1-h1-s2-l3"></li>
+									<li class="a1-h1-s2-l4"></li>
+									<li class="a1-h1-s2-l5"></li>
+								</ul>
+								<p class="a1-h1-s2-p1"></p>
+								<p class="a1-h1-s2-t2"></p>
+								<p class="a1-h1-s2-t3"></p>
+							</div>
 
 							<j-carousel 
 							style="margin-top: 35px; padding-left: 20px"
@@ -120,17 +142,20 @@
 							</j-carousel>
 
 							<!-- Realisation -->
-							<h2 class="post-content-heading section-text" style="margin-top: 48px">
-								<span class="a1-h2"></span>
+							<h2 class="post-content-heading section-text">
+								<mark class="a1-h2"></mark>
 							</h2>
 
 							<div class="d-flex overflow-hidden article-image-wrapper">
 								<img loading="lazy" class="object-fit-cover" style="height: inherit; width: inherit" src="/assets/images/hobbies/article-1/img-a1-14p.jpeg" alt="article-1-image">
 							</div>
 
-							<p class="a1-h2-t1 section-text" style="margin-top: 35px"></p>
-							<p class="a1-h2-t2 section-text" style="margin-top: 35px"></p>
-							<p class="a1-h2-t3 section-text" style="margin-top: 35px"></p>
+							<div class="section-text">
+								<j-blogquote-figure title-class="a1-h2-q1" text-class="a1-h2-q2"></j-blogquote-figure>
+								<p class="a1-h2-t1"></p>
+								<p class="a1-h2-t2"></p>
+								<p class="a1-h2-t3"></p>
+							</div>
 
 							<j-carousel 
 							style="margin-top: 35px; padding-left: 20px"
@@ -159,23 +184,27 @@
 							</j-carousel>
 
 							<!-- Conclusion -->
-							<h2 class="post-content-heading section-text" style="margin-top: 48px">
-								<span class="a1-h3"></span>
-							</h2>
-							<p class="a1-h3-t1 section-text" style="margin-top: 35px"></p>
-							<p class="a1-h3-t2 section-text" style="margin-top: 35px"></p>
-							<p class="a1-h3-t3 section-text" style="margin-top: 35px"></p>
-							<p class="a1-h3-t4 section-text" style="margin-top: 35px"></p>
+							<div class="section-text">
+								<h2>
+									<mark class="a1-h3"></mark>
+								</h2>
+								<p class="a1-h3-t1"></p>
+								<p class="a1-h3-t2"></p>
+								<j-blogquote-figure title-class="a1-h3-q1" text-class="a1-h3-q2"></j-blogquote-figure>
+							</div>
+
 						</div><!--//blog-entry-->
 					</div>
 
-					<j-article-nav
-					prevTextId="back"
-					nextTextId="next-article"
-					prevHref="/index-hobbies.html"
-					nextHref="/articles/hobbies/article-2.html"
-					tags='["tag-cycling", "tag-diy", "tag-welding", "tag-framebuilding"]'>
-					</j-article-nav>
+					<div class="section-text pb-5">
+						<j-article-nav
+						prevTextId="back"
+						nextTextId="next-article"
+						prevHref="/index-hobbies.html"
+						nextHref="/articles/hobbies/article-2.html"
+						tags='["tag-cycling", "tag-diy", "tag-welding", "tag-framebuilding"]'>
+						</j-article-nav>
+					</div>
 				</section><!--//page-intro-section-->
 
 			</div>

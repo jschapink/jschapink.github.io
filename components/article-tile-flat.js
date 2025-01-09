@@ -71,19 +71,30 @@ class ArticleTileFlat extends HTMLElement {
         }
 
         this.addEventListener('mouseover', function() {
-            this.mouseOver();
+            if (!this.isMobile()) {
+                this.mouseOver();
+            }
         });
 
         this.addEventListener('mouseout', function() {
-            let imageElement = this.getElementsByClassName('project-thumb')[0];
-            imageElement.style.transform = "scale(1)";
+            if (!this.isMobile()) {
+                let imageElement = this.getElementsByClassName('project-thumb')[0];
+                imageElement.style.transform = "scale(1)";
+            }
         });
 
         window.requestAnimationFrame(() => {
-            var imageSideTile = this.getElementsByClassName('project-thumb')[0];
-            var textSideTile = this.getElementsByClassName('text-side-tile')[0];
-            imageSideTile.style.height = textSideTile.style.offsetHeight;
+            if (!this.isMobile()) {
+                var imageSideTile = this.getElementsByClassName('project-thumb')[0];
+                var textSideTile = this.getElementsByClassName('text-side-tile')[0];
+                imageSideTile.style.height = textSideTile.style.offsetHeight;
+            }
         });
+    }
+
+    isMobile() {
+        const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+        return regex.test(navigator.userAgent);
     }
 
     updateImageHoverSize() {
@@ -121,23 +132,27 @@ customElements.define('j-article-tile-flat', ArticleTileFlat);
 
 // add event listener to the window to update the image hover size
 window.addEventListener('load', function() {
-    let articleTileFlatElements = document.getElementsByTagName('j-article-tile-flat');
+    if (!this.isMobile()) {
+        let articleTileFlatElements = document.getElementsByTagName('j-article-tile-flat');
 
-    for (let i in articleTileFlatElements) {
-        if (articleTileFlatElements[i] && i !== "length" && articleTileFlatElements[i].updateImageHoverSize) {
-            articleTileFlatElements[i].updateImageHoverSize();
+        for (let i in articleTileFlatElements) {
+            if (articleTileFlatElements[i] && i !== "length" && articleTileFlatElements[i].updateImageHoverSize) {
+                articleTileFlatElements[i].updateImageHoverSize();
+            }
+        
         }
-    
     }
 });
 
 window.addEventListener('resize', function() {
-    let articleTileFlatElements = document.getElementsByTagName('j-article-tile-flat');
+    if (!this.isMobile()) {
+        let articleTileFlatElements = document.getElementsByTagName('j-article-tile-flat');
 
-    for (let i in articleTileFlatElements) {
-        if (articleTileFlatElements[i] && i !== "length" && articleTileFlatElements[i].updateImageHoverSize) {
-            articleTileFlatElements[i].updateImageHoverSize();
+        for (let i in articleTileFlatElements) {
+            if (articleTileFlatElements[i] && i !== "length" && articleTileFlatElements[i].updateImageHoverSize) {
+                articleTileFlatElements[i].updateImageHoverSize();
+            }
+        
         }
-    
     }
 });

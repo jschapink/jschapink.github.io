@@ -14,6 +14,9 @@ const languageSet = {
 	"en": true
 }
 
+const debug = true;
+
+
 function setLangCookie(changeLanguage) {
 	const langCookie = Cookies.get('lang');
 	const url = new URL(location);
@@ -91,23 +94,31 @@ function loadTexts(languageTexts, language) {
 }
 
 
-function fetch_texts(language) {
-	var cachedData = localStorage.getItem("languageTexts");
-
-	if (cachedData) {
-		let languageTexts = JSON.parse(cachedData);
+function retrieve_texts(language) {
+	const promises = Object.values(paths).map(path => fetch(path));
+	Promise.all(promises)
+	.then(responses => Promise.all(responses.map(response => response.json())))
+	.then(data => {
+		let languageTexts = {"fr": data[1], "en": data[0]};
 		loadTexts(languageTexts, language);
-	} else {
-		const promises = Object.values(paths).map(path => fetch(path));
-		Promise.all(promises)
-		.then(responses => Promise.all(responses.map(response => response.json())))
-		.then(data => {
-			let languageTexts = {"fr": data[1], "en": data[0]};
-			loadTexts(languageTexts, language);
-			localStorage.setItem("languageTexts", JSON.stringify(languageTexts));
-		})
-		.catch(error => console.log(error));
+		localStorage.setItem("languageTexts", JSON.stringify(languageTexts));
+	})
+	.catch(error => console.log(error));
+}
 
+
+function fetch_texts(language) {
+	/* If debug is enabled, retrieve texts from the server else try to get it from local storage */
+	if (debug) {
+		retrieve_texts(language);
+	} else {
+		var cachedData = localStorage.getItem("languageTexts");
+		if (cachedData) {
+			let languageTexts = JSON.parse(cachedData);
+			loadTexts(languageTexts, language);
+		} else {
+			retrieve_texts(language);
+		}
 	}
 }
 

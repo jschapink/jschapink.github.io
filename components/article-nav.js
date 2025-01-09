@@ -11,23 +11,26 @@ class ArticleNav extends HTMLElement {
         var tags = this.attributes.tags ? JSON.parse(this.attributes.tags.value) : [];
 
         this.innerHTML = `
-            <div class="d-none d-flex flex-wrap my-3 tag-elements section-text-end">
-            </div>
+            <div class="py-4">
+                <hr>
+                <div class="d-none d-flex flex-wrap my-3 tag-elements pb-4">
+                </div>
 
-            <nav class="post-nav d-flex justify-content-between section-text-end">
-                <div class="nav-previous">
-                    <a href="${prevHref}" rel="prev">
-                        <i class="bi bi-arrow-left me-2"></i>
-                        <span class="${prevTextId}"></span>
-                    </a>
-                </div>
-                <div class="nav-next">
-                    <a href="${nextHref}" rel="next">
-                        <span class="${nextTextId}"></span>
-                        <i class="bi bi-arrow-right ms-2"></i>
-                    </a>
-                </div>
-            </nav>
+                <nav class="post-nav d-flex justify-content-between">
+                    <div class="nav-previous">
+                        <a href="${prevHref}" rel="prev">
+                            <i class="bi bi-arrow-left me-2"></i>
+                            <span class="${prevTextId}"></span>
+                        </a>
+                    </div>
+                    <div class="nav-next">
+                        <a href="${nextHref}" rel="next">
+                            <span class="${nextTextId}"></span>
+                            <i class="bi bi-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </nav>
+            </div>
         `;
 
         let tagElements = this.getElementsByClassName('tag-elements')[0];
