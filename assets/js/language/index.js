@@ -1,5 +1,5 @@
 const paths = {
-	"en": "/assets/js/language/texts/en.json",
+	"en": "/assets/js/language/texts/en-GB.json",
 	"fr": "/assets/js/language/texts/fr.json"
 }
 
