@@ -24,7 +24,7 @@ class Header extends HTMLElement {
                             </a>
                         </li>
                         <li class="list-inline-item me-0 me-md-1 me-lg-2">
-                            <a href="./assets/CV-Schapink-2025.pdf" download="CV-Schapink-2025.pdf" data-toggle="tooltip" data-placement="bottom" title="Télécharger le CV" data-delay="{ "show": 0, "hide": 0 }"><i class="bi bi-arrow-down-circle"></i></a>
+                            <a href="./assets/CV-Schapink-2025-FR.pdf" download="CV-Schapink-2025-FR.pdf" data-toggle="tooltip" data-placement="bottom" title="Télécharger le CV" data-delay="{ "show": 0, "hide": 0 }"><i class="bi bi-arrow-down-circle"></i></a>
                         </li>
                     </ul><!--//social-list-->
 

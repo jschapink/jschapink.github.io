@@ -19,7 +19,7 @@ class ArticleTileHome extends HTMLElement {
                     <p class="card-text mb-1 ${summary_id}"></p>
                     <div class="home-page-link">
                         <a class="card-link more-link" href="${article_reference}">
-                            View more
+                            Voir plus
                             <span class="link-arrow"><i class="bi bi-arrow-right"></i></span>
                         </a>
                     </div>
